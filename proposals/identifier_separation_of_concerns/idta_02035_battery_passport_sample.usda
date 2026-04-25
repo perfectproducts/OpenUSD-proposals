@@ -33,7 +33,7 @@ class "DppNameplateAPI" (
     For battery passport workflows apply together with BatteryNameplateAPI.
     For full industrial equipment workflows apply together with IndustrialEquipmentAPI.
     This illustrative definition shows the battery-passport-relevant mandatory fields only;
-    see digital_nameplate_openusd_bidirectional_mapping.md for the complete schema."""
+    see idta_02006_digital_nameplate_openusd_mapping.md for the complete schema."""
     customData = {
         token apiSchemaType = "singleApply"
     }
@@ -82,7 +82,7 @@ class "BatteryNameplateAPI" (
         allowedTokens = ["original", "repurposed", "re-used", "remanufactured", "waste"]
         doc = """Current lifecycle state of the battery per EU Battery Regulation.
         (AAS: LifeCycleStage, ECLASS IRDI enum, mandatory)
-        Token maps to ECLASS IRDI via lookup table in dpp_openusd_bidirectional_mapping.md."""
+        Token maps to ECLASS IRDI via lookup table in idta_02035_battery_passport_openusd_mapping.md."""
     )
     string dpp:operatorIdentifier (
         doc = """Unique battery operator identifier per ISO/IEC 15459.

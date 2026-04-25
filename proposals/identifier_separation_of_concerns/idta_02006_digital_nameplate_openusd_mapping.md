@@ -29,7 +29,7 @@ DppNameplateAPI          (this document — full IDTA 02006-3-0 base, dpp: names
   └── + IndustrialEquipmentAPI  → full industrial nameplate (IDTA 02006-3-0)
 ```
 
-`DppNameplateAPI` is the shared base schema covering all IDTA 02006-3-0 fields. It is fully defined in this document; `dpp_openusd_bidirectional_mapping.md` documents the battery-passport-specific usage (which fields are mandatory for that context, plus `BatteryNameplateAPI`).
+`DppNameplateAPI` is the shared base schema covering all IDTA 02006-3-0 fields. It is fully defined in this document; `idta_02035_battery_passport_openusd_mapping.md` documents the battery-passport-specific usage (which fields are mandatory for that context, plus `BatteryNameplateAPI`).
 
 `IndustrialEquipmentAPI` is a lightweight extension schema applied to equipment prims that carry the full IDTA 02006-3-0 encoding, including the optional `Markings/ExplosionSafeties` nested structure and the `AssetSpecificProperties` child prim. It serves both as a discoverer (tooling can find all fully-encoded industrial nameplates by checking for `IndustrialEquipmentAPI`) and as the definitional home for `ExplosionSafetyAPI`.
 
@@ -78,7 +78,7 @@ DppNameplateAPI          (this document — full IDTA 02006-3-0 base, dpp: names
 | IRDI | International Registration Data Identifier (IEC CDD/ECLASS) |
 | `DppNameplateAPI` | Full IDTA 02006-3-0 base applied schema (`dpp:` prefix) |
 | `IndustrialEquipmentAPI` | Industrial equipment extension schema; marker + `ExplosionSafetyAPI` home |
-| `BatteryNameplateAPI` | Battery passport extension (IDTA 02035-1, see dpp_openusd_bidirectional_mapping.md) |
+| `BatteryNameplateAPI` | Battery passport extension (IDTA 02035-1, see idta_02035_battery_passport_openusd_mapping.md) |
 | `MarkingAPI` | Applied schema for a single Marking entry (shared across nameplate types) |
 | `ExplosionSafetyAPI` | Applied schema for a single ExplosionSafety entry |
 | `sourceId:dpp:*` | Source identifier attributes per the Identifier Separation of Concerns proposal |

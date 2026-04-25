@@ -21,8 +21,8 @@ Two candidate mechanisms are under discussion:
 | File | Role |
 |------|------|
 | `README.md` | The proposal itself — problem statement, use cases, design principles, open questions, candidate mechanisms, next steps |
-| `dpp_openusd_bidirectional_mapping.md` | Concrete technical example: bidirectional mapping between OpenUSD and the IDTA 02035-1 Digital Battery Passport (AAS standard). Defines `DppNameplateAPI` and `BatteryNameplateAPI` applied schemas. |
-| `dpp_sample.usda` | Working USDA example file showing the proposed `sourceId:dpp:*` encoding on a fictional battery unit (`Battery_A12345X75EN`), with illustrative schema class definitions |
+| `idta_02035_battery_passport_openusd_mapping.md` | Concrete technical example: bidirectional mapping between OpenUSD and the IDTA 02035-1 Digital Battery Passport (AAS standard). Defines `DppNameplateAPI` and `BatteryNameplateAPI` applied schemas. |
+| `idta_02035_battery_passport_sample.usda` | Working USDA example file showing the proposed `sourceId:dpp:*` encoding on a fictional battery unit (`Battery_A12345X75EN`), with illustrative schema class definitions |
 | `product_passport_1775058840764.pdf` | Reference: IDTA 02035-1 Digital Battery Passport specification |
 
 ## Proposal Architecture
@@ -35,7 +35,7 @@ The README is structured in deliberate layers:
 4. **Candidate mechanisms** with explicit trade-offs — deliberately left unresolved pending community consensus
 5. **Relationship to other proposals** — Unicode Identifiers, Transcoding, Revise Layer Metadata, UI Hints (displayName deprecation)
 
-The `dpp_openusd_bidirectional_mapping.md` and `dpp_sample.usda` are companion artifacts that ground the abstract proposal in a real regulatory standard (EU Battery Regulation 2023/1542).
+The `idta_02035_battery_passport_openusd_mapping.md` and `idta_02035_battery_passport_sample.usda` are companion artifacts that ground the abstract proposal in a real regulatory standard (EU Battery Regulation 2023/1542).
 
 ## Key Concepts and Terminology
 

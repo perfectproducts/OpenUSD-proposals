@@ -182,3 +182,5 @@ Define the schemas. Use the relationships. Trust the composition engine. That is
 ---
 
 *Michael Wagner is CEO of [SyncTwin GmbH](https://synctwin.ai), a pioneer in OpenUSD-native middleware for industrial digital twins, and an NVIDIA Omniverse Ambassador. He is a contributor to the OpenUSD Enhancement Proposal "Separation of Concerns for Identifiers in USD," currently a draft under review by the Alliance for OpenUSD.*
+
+*This article was written with the assistance of [Claude Code](https://claude.ai/code) (Claude Sonnet 4.6) by Anthropic.*

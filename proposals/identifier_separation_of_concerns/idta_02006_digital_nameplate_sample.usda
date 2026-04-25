@@ -22,7 +22,7 @@
     References:
       IDTA 02006-3-0  Digital Nameplate for Industrial Equipment (December 2023)
       IDTA 02002-1-0  Contact Information SMT
-      digital_nameplate_openusd_bidirectional_mapping.md  — bidirectional mapping
+      idta_02006_digital_nameplate_openusd_mapping.md  — bidirectional mapping
     """
     defaultPrim = "Pump_MusterAG_CM5_3"
     upAxis = "Y"
@@ -41,7 +41,7 @@ class "DppNameplateAPI" (
     Applicable to any product with a digital nameplate or digital product passport.
     For battery passport workflows apply together with BatteryNameplateAPI.
     For full industrial equipment workflows apply together with IndustrialEquipmentAPI.
-    See digital_nameplate_openusd_bidirectional_mapping.md for per-field documentation."""
+    See idta_02006_digital_nameplate_openusd_mapping.md for per-field documentation."""
     customData = {
         token apiSchemaType = "singleApply"
     }

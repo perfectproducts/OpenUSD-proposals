@@ -127,7 +127,7 @@ Both schemas use the `dpp:` namespace prefix. The prim `kind` should be `compone
 # ── Generic DPP nameplate (IDTA-02006 origin) ─────────────────────────────────
 class "DppNameplateAPI" (
     inherits = </APISchemaBase>
-    doc = "Full IDTA 02006-3-0 Digital Nameplate for Industrial Equipment base schema. Applicable to any product with a digital nameplate or digital product passport. For battery passport workflows apply together with BatteryNameplateAPI; for full industrial equipment workflows apply together with IndustrialEquipmentAPI. See digital_nameplate_openusd_bidirectional_mapping.md for per-field documentation of fields marked (IDTA 02006-3-0)."
+    doc = "Full IDTA 02006-3-0 Digital Nameplate for Industrial Equipment base schema. Applicable to any product with a digital nameplate or digital product passport. For battery passport workflows apply together with BatteryNameplateAPI; for full industrial equipment workflows apply together with IndustrialEquipmentAPI. See idta_02006_digital_nameplate_openusd_mapping.md for per-field documentation of fields marked (IDTA 02006-3-0)."
     customData = {
         token apiSchemaType = "singleApply"
     }
